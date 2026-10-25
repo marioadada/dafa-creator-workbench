@@ -1,0 +1,17 @@
+# 备份文件（每次刷新自动生成，体积大）
+backup_workbench_*.html
+
+# 中间数据产物
+new_data_*.json
+scripts/new_data*.json
+scripts/incr_data*.json
+
+# WorkBuddy 项目私有数据（自动化配置、记忆）
+.workbuddy/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
